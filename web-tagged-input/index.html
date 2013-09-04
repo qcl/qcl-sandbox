@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Tagged input box</title>
+<script type="text/javascript" src="./jquery-2.0.3.min.js"></script>
+<style>
+.qcl-tagged-input{
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    width: 400px;
+}
+
+.tags{
+    display: inline-block;
+}
+
+.tag{
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.real-input{
+    font-size: 15px;
+    border: 0;
+    background: transparent;
+}
+
+.real-input:focus{
+    outline-style: none;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Tagged input box test</h1>
+
+<div style="
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+">
+    <div>
+        <div class="qcl-tagged-input">
+            <div id="qcl-tags" class="tags">
+            </div>
+            <input id="qcl-input" class="real-input" placeholder="test" />
+        </div>
+        <button type="submit">submit</button>
+    </div>
+</div>
+
+<script>
+
+console.log("qcl-testing.");
+
+var $tagc = $("#qcl-tags");
+var $input = $("#qcl-input");
+
+$input.on("keydown",function(event){
+    var keyCode = event.keyCode;
+    var keyIdentifier = event.originalEvent.keyIdentifier;
+    var text = $input.val();
+
+    if(keyCode==8&&text.length==0){
+        var tags = $tagc.children();
+        if(tags.length>0){
+            tags[tags.length-1].remove();
+        }
+    }
+    
+});
+
+$input.on("keyup",function(event){
+
+    var keyCode = event.keyCode;
+    var keyIdentifier = event.originalEvent.keyIdentifier;
+    var text = $input.val();
+
+    if(keyCode==188&&keyIdentifier=="U+002C"){
+
+        text = text.replace(/( )*,$/,'');
+        if(text.length>0){
+            var $span = $("<span>").html('#'+text).addClass("tags");
+            $tagc.append($span);
+            $input.val('');
+        }
+    }
+
+    //,     188
+    //back  8
+    //enter 13
+    //up    38
+    //down  40 
+    //right 37
+    //left  39
+
+    //console.log($input.val());
+});
+
+
+</script>
+
+</body>
+</html>
