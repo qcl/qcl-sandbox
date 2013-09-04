@@ -16,8 +16,7 @@
 }
 
 .tag{
-    margin-right: 1px;
-    margin-left: 1px;
+    margin-left: 6px;
 }
 
 .real-input{
@@ -82,7 +81,7 @@ $input.on("keyup",function(event){
 
         text = text.replace(/( )*,$/,'');
         if(text.length>0){
-            var $span = $("<span>").html('#'+text).addClass("tags");
+            var $span = $("<span>").html('#'+text).addClass("tag");
             $tagc.append($span);
             $input.val('');
         }
