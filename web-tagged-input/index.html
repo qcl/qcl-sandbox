@@ -77,6 +77,9 @@ $input.on("keyup",function(event){
     var keyIdentifier = event.originalEvent.keyIdentifier;
     var text = $input.val();
 
+    console.log(keyCode);
+    console.log(event);
+
     if(keyCode==188&&keyIdentifier=="U+002C"){
 
         text = text.replace(/( )*,$/,'');
