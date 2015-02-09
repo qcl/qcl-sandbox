@@ -14,6 +14,8 @@
 		7C476C701A865FBD00F2DFF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C476C6F1A865FBD00F2DFF4 /* Images.xcassets */; };
 		7C476C731A865FBD00F2DFF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C476C711A865FBD00F2DFF4 /* LaunchScreen.xib */; };
 		7C476C7F1A865FBD00F2DFF4 /* PracticesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C476C7E1A865FBD00F2DFF4 /* PracticesTests.m */; };
+		7C77032F1A890C6500FF57B7 /* 2DTransformRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C77032D1A890C6500FF57B7 /* 2DTransformRotationViewController.m */; };
+		7C7703301A890C6500FF57B7 /* 2DTransformRotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C77032E1A890C6500FF57B7 /* 2DTransformRotationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		7C476C781A865FBD00F2DFF4 /* PracticesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C476C7D1A865FBD00F2DFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C476C7E1A865FBD00F2DFF4 /* PracticesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticesTests.m; sourceTree = "<group>"; };
+		7C77032C1A890C6500FF57B7 /* 2DTransformRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2DTransformRotationViewController.h; sourceTree = "<group>"; };
+		7C77032D1A890C6500FF57B7 /* 2DTransformRotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 2DTransformRotationViewController.m; sourceTree = "<group>"; };
+		7C77032E1A890C6500FF57B7 /* 2DTransformRotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = 2DTransformRotationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				7C476C6F1A865FBD00F2DFF4 /* Images.xcassets */,
 				7C476C711A865FBD00F2DFF4 /* LaunchScreen.xib */,
 				7C476C621A865FBD00F2DFF4 /* Supporting Files */,
+				7C77032C1A890C6500FF57B7 /* 2DTransformRotationViewController.h */,
+				7C77032D1A890C6500FF57B7 /* 2DTransformRotationViewController.m */,
+				7C77032E1A890C6500FF57B7 /* 2DTransformRotationViewController.xib */,
 			);
 			path = Practices;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 				7C476C6E1A865FBD00F2DFF4 /* Main.storyboard in Resources */,
 				7C476C731A865FBD00F2DFF4 /* LaunchScreen.xib in Resources */,
 				7C476C701A865FBD00F2DFF4 /* Images.xcassets in Resources */,
+				7C7703301A890C6500FF57B7 /* 2DTransformRotationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				7C476C6B1A865FBD00F2DFF4 /* ViewController.m in Sources */,
 				7C476C681A865FBD00F2DFF4 /* AppDelegate.m in Sources */,
 				7C476C651A865FBD00F2DFF4 /* main.m in Sources */,
+				7C77032F1A890C6500FF57B7 /* 2DTransformRotationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +422,7 @@
 				7C476C841A865FBD00F2DFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C476C851A865FBD00F2DFF4 /* Build configuration list for PBXNativeTarget "PracticesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				7C476C871A865FBD00F2DFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
