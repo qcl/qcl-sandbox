@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSDictionary* examples;
 
 @end
 
@@ -16,28 +18,67 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-
+    [self setupView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - self define functions
 - (void)setupView
 {
-    NSLog(@"yo");
+    //examples
+    self.examples = @{@"2D":@[@"example 1",
+                              @"example 2"
+                              ],
+                      @"3D":@[@"example 1",
+                              @"example 2"
+                              ]
+                      };
+    
+    self.title = @"玩沙沙";
+    
+    
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (section==0) {
+        return [self.examples[@"2D"] count];
+    } else {
+        return [self.examples[@"3D"] count];
+    }
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return @"2D";
+    }else{
+        return @"3D";
+    }
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    if (indexPath.section == 0) {
+        cell.textLabel.text = self.examples[@"2D"][indexPath.row];
+    } else {
+        cell.textLabel.text = self.examples[@"3D"][indexPath.row];
+    }
+    
+    return cell;
 }
 
 @end
