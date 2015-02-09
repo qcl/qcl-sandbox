@@ -9,4 +9,10 @@ qcl-sandbox
 ## Projects
 * web-tagged-input
 
+### iOS Practices
+* Navigation Bar
+* Table View
+* Collection View
+* CALayer
+
 :calendar: a test
