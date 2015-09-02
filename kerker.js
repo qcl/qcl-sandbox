@@ -8,7 +8,7 @@ var firstNum = 1;
 var secondNum = 2;
 var expected = 3;
 
-// act
+// This is a test :\
 var result = Add(firstNum, secondNum);
 
 // assert
