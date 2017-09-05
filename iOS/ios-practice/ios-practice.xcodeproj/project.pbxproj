@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0F1AE31F5EF43500047D32 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F1AE21F5EF43500047D32 /* BinaryTreeNode.m */; };
 		7CD76B0E1F5ECD72009916E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD76B0D1F5ECD72009916E5 /* AppDelegate.m */; };
 		7CD76B111F5ECD72009916E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD76B101F5ECD72009916E5 /* ViewController.m */; };
 		7CD76B141F5ECD72009916E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD76B121F5ECD72009916E5 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0F1AE11F5EF43500047D32 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		7C0F1AE21F5EF43500047D32 /* BinaryTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
 		7CD76B091F5ECD72009916E5 /* ios-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD76B0C1F5ECD72009916E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CD76B0D1F5ECD72009916E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				7CD76B171F5ECD72009916E5 /* LaunchScreen.storyboard */,
 				7CD76B1A1F5ECD72009916E5 /* Info.plist */,
 				7CD76B1B1F5ECD72009916E5 /* main.m */,
+				7C0F1AE11F5EF43500047D32 /* BinaryTreeNode.h */,
+				7C0F1AE21F5EF43500047D32 /* BinaryTreeNode.m */,
 			);
 			path = "ios-practice";
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				7CD76B111F5ECD72009916E5 /* ViewController.m in Sources */,
 				7CD76B1C1F5ECD72009916E5 /* main.m in Sources */,
 				7CD76B0E1F5ECD72009916E5 /* AppDelegate.m in Sources */,
+				7C0F1AE31F5EF43500047D32 /* BinaryTreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				7CD76B211F5ECD72009916E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

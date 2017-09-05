@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BinaryTreeNode.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self playWithBTN];
 }
 
 
@@ -25,5 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)playWithBTN
+{
+    BinaryTreeNode *nodeA = [[BinaryTreeNode alloc] initWithValue:10];
+    NSLog(@"%@", nodeA);
+
+    BinaryTreeNode *nodeB = [nodeA copy];
+    NSLog(@"%@", nodeB);
+}
 
 @end
