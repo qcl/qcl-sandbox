@@ -94,6 +94,31 @@ struct Size {
     var height: Int
 }
 
-var size = Size(width: 1, height: 2)
+var size = Size(width: 1, height: 2)    // memberwise initializer
+
+// Initializer delegation for value type
 
 
+struct SizeA {
+    var width = 0.0
+    var height = 0.0
+}
+
+struct Point {
+    var x = 0.0, y = 0.0
+}
+
+struct Rect {
+    var origin = Point()
+    var size = SizeA()
+    init () {}
+    init(origin: Point, size: SizeA) {
+        self.origin = origin
+        self.size = size
+    }
+    init(center: Point, size: SizeA) {
+        let ox = center.x - size.width / 2
+        let oy = center.y - size.height / 2
+        self.origin = Point(x: ox, y: oy)
+    }
+}
