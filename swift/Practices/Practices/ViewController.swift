@@ -18,6 +18,12 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("View did appear!")
+
+        let sp13 = SP013Initialization()
+        sp13.run()
+
+        //let testPoint = Point(x: 1, y: 2)
+
     }
 }
 
