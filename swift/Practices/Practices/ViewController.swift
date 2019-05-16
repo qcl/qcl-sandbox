@@ -27,10 +27,17 @@ class ViewController: UIViewController {
 //        var sp14: SP014Deinit? = SP014Deinit()
 //        sp14?.run()
 //        sp14 = nil
+//
+//        var sp15: SP015ErrorHandling? = SP015ErrorHandling()
+//        sp15?.run()
+//        sp15 = nil
+//
+//        var sp18: SP018Extension? = SP018Extension()
+//        sp18?.run()
+//        sp18 = nil
 
-        var sp15: SP015ErrorHandling? = SP015ErrorHandling()
-        sp15?.run()
-        sp15 = nil
+        let practices: [SPPracticeRunnable] = [SP019Protocol(), SP020Generics()]
+        practices.last?.run()
     }
 }
 
