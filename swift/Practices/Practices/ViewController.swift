@@ -36,7 +36,11 @@ class ViewController: UIViewController {
 //        sp18?.run()
 //        sp18 = nil
 
-        let practices: [SPPracticeRunnable] = [SP019Protocol(), SP020Generics()]
+        let practices: [SPPracticeRunnable] = [
+            SP019Protocol(),
+            SP020Generics(),
+            SP021StrongWeakUnowned(),
+        ]
         practices.last?.run()
     }
 }

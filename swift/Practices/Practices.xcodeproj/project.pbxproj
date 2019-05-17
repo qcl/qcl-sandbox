@@ -11,6 +11,7 @@
 		2062C3D4228D4CFF0033CCD4 /* SP018Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062C3D3228D4CFF0033CCD4 /* SP018Extension.swift */; };
 		2062C3D6228D5D150033CCD4 /* SP019Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062C3D5228D5D150033CCD4 /* SP019Protocol.swift */; };
 		2062C3D8228D8DF80033CCD4 /* SP020Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2062C3D7228D8DF80033CCD4 /* SP020Generics.swift */; };
+		20A9AC88228EA1AC00AF45ED /* SP021StrongWeakUnowned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A9AC87228EA1AC00AF45ED /* SP021StrongWeakUnowned.swift */; };
 		20BDC6F2228C0C6E00030B5B /* SP014Deinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BDC6F1228C0C6E00030B5B /* SP014Deinit.swift */; };
 		20BDC6F4228C449C00030B5B /* SP015ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BDC6F3228C449C00030B5B /* SP015ErrorHandling.swift */; };
 		20D16B7D2289761A005C410B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D16B7C2289761A005C410B /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 		2062C3D3228D4CFF0033CCD4 /* SP018Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP018Extension.swift; sourceTree = "<group>"; };
 		2062C3D5228D5D150033CCD4 /* SP019Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP019Protocol.swift; sourceTree = "<group>"; };
 		2062C3D7228D8DF80033CCD4 /* SP020Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP020Generics.swift; sourceTree = "<group>"; };
+		20A9AC87228EA1AC00AF45ED /* SP021StrongWeakUnowned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP021StrongWeakUnowned.swift; sourceTree = "<group>"; };
 		20BDC6F1228C0C6E00030B5B /* SP014Deinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP014Deinit.swift; sourceTree = "<group>"; };
 		20BDC6F3228C449C00030B5B /* SP015ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP015ErrorHandling.swift; sourceTree = "<group>"; };
 		20D16B792289761A005C410B /* Practices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practices.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,7 @@
 				2062C3D3228D4CFF0033CCD4 /* SP018Extension.swift */,
 				2062C3D5228D5D150033CCD4 /* SP019Protocol.swift */,
 				2062C3D7228D8DF80033CCD4 /* SP020Generics.swift */,
+				20A9AC87228EA1AC00AF45ED /* SP021StrongWeakUnowned.swift */,
 			);
 			path = Practices;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				20D16B7F2289761A005C410B /* ViewController.swift in Sources */,
 				20BDC6F4228C449C00030B5B /* SP015ErrorHandling.swift in Sources */,
+				20A9AC88228EA1AC00AF45ED /* SP021StrongWeakUnowned.swift in Sources */,
 				2062C3D4228D4CFF0033CCD4 /* SP018Extension.swift in Sources */,
 				2062C3D8228D8DF80033CCD4 /* SP020Generics.swift in Sources */,
 				2062C3D6228D5D150033CCD4 /* SP019Protocol.swift in Sources */,

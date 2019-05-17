@@ -73,6 +73,33 @@ private func allItemMatch<C1: Container, C2: Container>(_ someContainer: C1, _ a
     return true
 }
 
+private class Person {
+
+}
+
+private class 🇹🇼 {
+
+}
+
+private protocol 🌈 {
+    func 👫 () -> Void
+    func 👭 () -> Void
+    func 👬 () -> Void
+}
+
+extension 🇹🇼:🌈 {
+    func 👭() {
+
+    }
+
+    func 👬() {
+
+    }
+
+    func 👫 () {
+    }
+}
+
 class SP020Generics: SPPracticeRunnable {
     func run() {
         var a = 1
