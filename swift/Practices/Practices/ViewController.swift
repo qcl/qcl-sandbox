@@ -40,6 +40,8 @@ class ViewController: UIViewController {
             SP019Protocol(),
             SP020Generics(),
             SP021StrongWeakUnowned(),
+            SP022MemorySafety(),
+            SP023AccessControl(),
         ]
         practices.last?.run()
     }
