@@ -42,6 +42,7 @@ class ViewController: UIViewController {
             SP021StrongWeakUnowned(),
             SP022MemorySafety(),
             SP023AccessControl(),
+            SP024AdvancedOperators(),
         ]
         practices.last?.run()
     }
