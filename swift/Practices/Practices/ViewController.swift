@@ -43,6 +43,7 @@ class ViewController: UIViewController {
             SP022MemorySafety(),
             SP023AccessControl(),
             SP024AdvancedOperators(),
+            SP101GCD(),
         ]
         practices.last?.run()
     }

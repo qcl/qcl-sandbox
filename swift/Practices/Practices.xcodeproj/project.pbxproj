@@ -22,6 +22,7 @@
 		20D16B822289761A005C410B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D16B802289761A005C410B /* Main.storyboard */; };
 		20D16B842289761C005C410B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D16B832289761C005C410B /* Assets.xcassets */; };
 		20D16B872289761C005C410B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D16B852289761C005C410B /* LaunchScreen.storyboard */; };
+		7C6721BE2290A54600BB6642 /* SP101GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6721BD2290A54600BB6642 /* SP101GCD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		20D16B832289761C005C410B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20D16B862289761C005C410B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20D16B882289761C005C410B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6721BD2290A54600BB6642 /* SP101GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP101GCD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				20A9AC89228ECE3400AF45ED /* SP022MemorySafety.swift */,
 				20A9AC8B228EDD9800AF45ED /* SP023AccessControl.swift */,
 				20A9AC8D228EF0C000AF45ED /* SP024AdvancedOperators.swift */,
+				7C6721BD2290A54600BB6642 /* SP101GCD.swift */,
 			);
 			path = Practices;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				20A9AC8E228EF0C000AF45ED /* SP024AdvancedOperators.swift in Sources */,
 				20A9AC8A228ECE3400AF45ED /* SP022MemorySafety.swift in Sources */,
 				20D16B7D2289761A005C410B /* AppDelegate.swift in Sources */,
+				7C6721BE2290A54600BB6642 /* SP101GCD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
